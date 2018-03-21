@@ -1,5 +1,5 @@
 <?php
 
-Route::get('/', 'BillSplitterController@index');
+Route::get('/', 'BillController@index');
 
-Route::get('/split-bill', 'BillSplitterController@splitBill');
+Route::get('/split-bill', 'BillController@splitBill');

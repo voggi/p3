@@ -4,6 +4,9 @@
 
 ## Outside resources
 *your list of outside resources go here*
+Using debugbar
+usin bootsrap css for basic form styling
+Lines might be longer than xxx characters
 
 ## Code style divergences
 *list any divergences from PSR-1/PSR-2 and course guidelines on code style*
