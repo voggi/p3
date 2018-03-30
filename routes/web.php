@@ -2,4 +2,4 @@
 
 Route::get('/', 'BillController@index');
 
-Route::get('/split-bill', 'BillController@splitBill');
+Route::get('/result', 'BillController@result');
