@@ -90,9 +90,9 @@ class BillSplitter
     {
         if ($amountOwed = $this->getAmountOwed()) {
             if ($this->numberOfPeople == 1) {
-                return 'You owe ' . $amountOwed . ' EUR';
+                return 'You owe ' . $amountOwed . ' EUR.';
             } else {
-                return 'Everyone owes ' . $amountOwed . ' EUR';
+                return 'Everyone owes ' . $amountOwed . ' EUR.';
             }
         } else {
             return '';

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="col-6">
+    <div class="col-12 col-md-6">
         <p class="text-center">
             This is a simple app to split a bill.<br>
 

@@ -7,11 +7,17 @@ use Illuminate\Http\Request;
 
 class BillController extends Controller
 {
+    /**
+     * GET /
+    */
     public function index(Request $request)
     {
         return view('bills.index');
     }
 
+    /**
+     * GET /result
+    */
     public function result(Request $request)
     {
         $this->validate($request, [
